@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bebodavil | La Vasija que Sintió</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family: Arial, sans-serif;
+            background: url("fondo de bebo.png") center/cover no-repeat fixed;
+            color:white;
+            position:relative;
+        }
+
+        body::before{
+            content:"";
+            position:fixed;
+            inset:0;
+            background:rgba(5,8,15,0.88);
+            z-index:-1;
+        }
+
+        .profile-container{
+            max-width:1000px;
+            margin:120px auto 60px auto;
+            padding:30px;
+        }
+
+        .profile-header{
+            text-align:center;
+            margin-bottom:50px;
+        }
+
+        .profile-header h1{
+            font-size:42px;
+            color:#9ecbff;
+            text-shadow:0 0 15px rgba(158,203,255,0.4);
+            margin-bottom:10px;
+        }
+
+        .profile-header p{
+            font-style:italic;
+            color:#bbb;
+        }
+
+        .profile-section{
+            background:linear-gradient(145deg,#0f1624,#0c121c);
+            padding:25px;
+            margin-bottom:30px;
+            border-radius:10px;
+            border:1px solid #1f2c44;
+            box-shadow:0 0 15px rgba(158,203,255,0.1);
+            transition:0.3s;
+        }
+
+        .profile-section:hover{
+            box-shadow:0 0 25px rgba(158,203,255,0.3);
+            transform:translateY(-3px);
+        }
+
+        .profile-section h2{
+            color:#9ecbff;
+            margin-bottom:15px;
+            border-bottom:1px solid #1f2c44;
+            padding-bottom:8px;
+        }
+
+        .highlight{
+            color:#cfe6ff;
+            font-weight:bold;
+        }
+
+        .info-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:15px;
+        }
+
+        .info-box{
+            background:#0b111a;
+            padding:15px;
+            border-radius:8px;
+            border:1px solid #182336;
+        }
+
+        .info-box strong{
+            color:#9ecbff;
+        }
+
+        .back-btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:12px 25px;
+            background:#9ecbff;
+            text-decoration:none;
+            color:black;
+            border-radius:6px;
+            transition:0.3s;
+            box-shadow:0 0 15px rgba(158,203,255,0.3);
+        }
+
+        .back-btn:hover{
+            background:#cfe6ff;
+            box-shadow:0 0 25px rgba(158,203,255,0.6);
+            transform:scale(1.05);
+        }
+
+        @media (max-width:768px){
+            .profile-container{
+                padding:15px;
+                margin-top:80px;
+            }
+
+            .profile-header h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="profile-container">
+
+    <div class="profile-header">
+        <h1>Bebodavil</h1>
+        <p><em>La Vasija que Sintió</em></p>
+    </div>
+
+  
+    <div class="profile-section">
+        <h2>Información General</h2>
+        <div class="info-grid">
+            <div class="info-box"><strong>Edad:</strong> 17 años</div>
+            <div class="info-box"><strong>Sexo:</strong> Masculino</div>
+            <div class="info-box"><strong>Origen:</strong> Hollow Nest</div>
+            <div class="info-box"><strong>Alineación:</strong> Neutral</div>
+            <div class="info-box"><strong>Ocupación:</strong> Herrero</div>
+            <div class="info-box"><strong>Negocio:</strong> La Herrería del Caballero</div>
+        </div>
+    </div>
+
+
+    <div class="profile-section">
+        <h2>Origen</h2>
+        <p>Es una vasija pura de <span class="highlight">Hollow Nest</span>.</p>
+        <p>Como las demás vasijas defectuosas, fue rechazado y abandonado en el vacío.</p>
+        <p>Absorbió ese vacío… pero no perdió algo inesperado:</p>
+        <p><span class="highlight">Desarrolló sentimientos.</span></p>
+    </div>
+
+    
+    <div class="profile-section">
+        <h2>La Isla</h2>
+        <p>Despertó en una isla desconocida, perdido en el bosque.</p>
+        <p>Fue encontrado por un hombre llamado <span class="highlight">Weromag</span>, dueño de una cafetería.</p>
+        <p>Weromag lo adoptó y lo cuidó como un hijo.</p>
+        <p>Por primera vez, Bebodavil no estuvo solo.</p>
+    </div>
+
+
+    <div class="profile-section">
+        <h2>La Herrería del Caballero</h2>
+        <p>Con el tiempo comenzó a explorar, hacer amigos y construir su propio camino.</p>
+        <p>Fundó su negocio:</p>
+        <p><span class="highlight">"La Herrería del Caballero"</span>.</p>
+        <p>Debajo construyó una base subterránea que le recuerda a Hollow Nest.</p>
+        <p>Allí vive junto a trabajadoras, soñando con crear su propio pueblo.</p>
+    </div>
+
+
+    <div class="profile-section">
+        <h2>Marquitos</h2>
+        <p>Descubrió que Marquitos es príncipe de un pueblo en un árbol que habita sobre Hollow Nest.</p>
+        <p>Eso le devolvió la esperanza de regresar algún día.</p>
+        <p>Se volvieron mejores amigos y compañeros inseparables.</p>
+    </div>
+
+
+    <div class="profile-section">
+        <h2>Personalidad</h2>
+        <p>No confía en ninguna iglesia.</p>
+        <p>Solo confía en sus amigos y en su padre adoptivo.</p>
+        <p>Le gusta ayudar a quienes llegan nuevos a la isla,</p>
+        <p>porque no quiere que se sientan solos como él se sintió.</p>
+    </div>
+
+
+    <div class="profile-section">
+        <h2>Gustos y Amigos</h2>
+        <p><strong>Gustos:</strong> Dibujar, jugar, ayudar y explorar.</p>
+        <p><strong>Mejores amigos:</strong> Sonic, Marquitos, Des, Big, Weromag, Lirios Loto, Bárbaros, Ana Banana, Solecito, Ishad, Liah, Oso.</p>
+    </div>
+
+    <a href="Codigo base.html" class="back-btn">Volver al Inicio</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>    Alcys | El Primer Rebelde</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family: Arial, sans-serif;
+            background: url("fondo para alcys.png") center/cover no-repeat fixed;
+            color:white;
+            position:relative;
+        }
+
+        body::before{
+            content:"";
+            position:fixed;
+            inset:0;
+            background:rgba(10,8,2,0.85);
+            z-index:-1;
+        }
+
+        .profile-container{
+            max-width:1000px;
+            margin:120px auto 60px auto;
+            padding:30px;
+        }
+
+        .profile-header{
+            text-align:center;
+            margin-bottom:60px;
+        }
+
+        .profile-header h1{
+            font-size:42px;
+            color:#c6a84b;
+            text-shadow:0 0 15px rgba(198,168,75,0.4);
+            margin-bottom:10px;
+        }
+
+        .profile-header p{
+            font-style:italic;
+            color:#bbb;
+        }
+
+        .profile-section{
+            background:linear-gradient(145deg,#1a1608,#141107);
+            padding:25px;
+            margin-bottom:30px;
+            border-radius:10px;
+            border:1px solid #3a2f10;
+            box-shadow:0 0 15px rgba(198,168,75,0.1);
+            transition:0.3s;
+        }
+
+        .profile-section:hover{
+            box-shadow:0 0 25px rgba(198,168,75,0.3);
+            transform:translateY(-3px);
+        }
+
+        .profile-section h2{
+            color:#c6a84b;
+            margin-bottom:15px;
+            border-bottom:1px solid #3a2f10;
+            padding-bottom:8px;
+        }
+
+        .highlight{
+            color:#ffcc66;
+            font-weight:bold;
+        }
+
+        .back-btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:12px 25px;
+            background:#c6a84b;
+            text-decoration:none;
+            color:black;
+            border-radius:6px;
+            transition:0.3s;
+            box-shadow:0 0 15px rgba(198,168,75,0.3);
+        }
+
+        .back-btn:hover{
+            background:#e0c56a;
+            box-shadow:0 0 25px rgba(198,168,75,0.6);
+            transform:scale(1.05);
+        }
+
+        @media (max-width:768px){
+            .profile-container{
+                padding:15px;
+                margin-top:80px;
+            }
+
+            .profile-header h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="profile-container">
+
+    <div class="profile-header">
+        <h1>Alcys</h1>
+        <p><em>El Primer Rebelde</em></p>
+    </div>
+
+    <div class="profile-section">
+        <h2>La Rebelión</h2>
+        <p>Fue el primer gran rebelde contra el reinado del <span class="highlight">Primer Frix</span>.</p>
+        <p>Descubrió que el Sol no representaba justicia, sino dominio.</p>
+        <p>Reunió oprimidos bajo la idea de que el poder del rey debía ser cuestionado.</p>
+        <p>La rebelión fue permitida para demostrar control.</p>
+        <p>Cuando creció demasiado, fue aplastada públicamente como advertencia.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Castigo</h2>
+        <p>Intentó un último acto desesperado.</p>
+        <p>Fue capturado, desmembrado y esparcido por el reino.</p>
+        <p>Su cabeza fue enterrada bajo el trono durante años.</p>
+        <p>Desde allí escuchó cada discurso y cada decisión real.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>La Verdad</h2>
+        <p>Comprendió que la familia Frix no es solo una dinastía.</p>
+        <p>Es un recipiente de la <span class="highlight">Voluntad Solar</span>.</p>
+        <p>El poder no se hereda. Se encarna.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Renacimiento</h2>
+        <p>Sobrevivió gracias a una fuerza desconocida que lo regeneró.</p>
+        <p>Entendió que el problema no es solo el Sol ni la Luna.</p>
+        <p>Es el poder absoluto sin oposición.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Ideales Actuales</h2>
+        <p>No busca venganza.</p>
+        <p>No busca destrucción.</p>
+        <p><span class="highlight">Busca equilibrio.</span></p>
+        <p>Sabe cómo funciona la monarquía.</p>
+        <p>Sabe que el Sacerdote de la Luna no está completamente equivocado.</p>
+        <p>Sabe que tanto el Sol como la Luna manipulan el mundo.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Duda Central</h2>
+        <p>Su mayor duda no es si puede cambiar el sistema.</p>
+        <p><span class="highlight">Es si su rebelión siempre fue parte del plan del Sol.</span></p>
+    </div>
+
+    <a href="Codigo base.html" class="back-btn">Volver al Inicio</a>
+
+</div>
+
+</body>
+</html>

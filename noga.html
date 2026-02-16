@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nogabop Marshal | El que Aprendió a Sentir</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family: Arial, sans-serif;
+            background: url("fondo de noga.png") center/cover no-repeat fixed;
+            color:white;
+            position:relative;
+        }
+
+        body::before{
+            content:"";
+            position:fixed;
+            inset:0;
+            background:rgba(15,5,5,0.88);
+            z-index:-1;
+        }
+
+        .profile-container{
+            max-width:1000px;
+            margin:120px auto 60px auto;
+            padding:30px;
+        }
+
+        .profile-header{
+            text-align:center;
+            margin-bottom:50px;
+        }
+
+        .profile-header h1{
+            font-size:42px;
+            color:#ff3c3c;
+            text-shadow:0 0 15px rgba(255,60,60,0.4);
+            margin-bottom:10px;
+        }
+
+        .profile-header p{
+            font-style:italic;
+            color:#bbb;
+        }
+
+        .profile-section{
+            background:linear-gradient(145deg,#1a0d0d,#140909);
+            padding:25px;
+            margin-bottom:30px;
+            border-radius:10px;
+            border:1px solid #3a1515;
+            box-shadow:0 0 15px rgba(255,60,60,0.1);
+            transition:0.3s;
+        }
+
+        .profile-section:hover{
+            box-shadow:0 0 25px rgba(255,60,60,0.3);
+            transform:translateY(-3px);
+        }
+
+        .profile-section h2{
+            color:#ff3c3c;
+            margin-bottom:15px;
+            border-bottom:1px solid #3a1515;
+            padding-bottom:8px;
+        }
+
+        .highlight{
+            color:#ff6666;
+            font-weight:bold;
+        }
+
+        .info-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:15px;
+        }
+
+        .info-box{
+            background:#120808;
+            padding:15px;
+            border-radius:8px;
+            border:1px solid #331010;
+        }
+
+        .info-box strong{
+            color:#ff6666;
+        }
+
+        .back-btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:12px 25px;
+            background:#ff3c3c;
+            text-decoration:none;
+            color:white;
+            border-radius:6px;
+            transition:0.3s;
+            box-shadow:0 0 15px rgba(255,60,60,0.3);
+        }
+
+        .back-btn:hover{
+            background:#ff6666;
+            box-shadow:0 0 25px rgba(255,60,60,0.6);
+            transform:scale(1.05);
+        }
+
+        @media (max-width:768px){
+            .profile-container{
+                padding:15px;
+                margin-top:80px;
+            }
+
+            .profile-header h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="profile-container">
+
+    <div class="profile-header">
+        <h1>Noga Marshal</h1>
+        <p><em>El que Aprendió a Sentir</em></p>
+    </div>
+
+  
+    <div class="profile-section">
+        <h2>Información General</h2>
+        <div class="info-grid">
+            <div class="info-box"><strong>Edad:</strong> 18 años</div>
+            <div class="info-box"><strong>Altura:</strong> 1.66 m</div>
+            <div class="info-box"><strong>Origen:</strong> Reino dictatorial</div>
+            <div class="info-box"><strong>Estado:</strong> Vivo (tras regreso)</div>
+            <div class="info-box"><strong>Afiliación:</strong> Actualmente del sol</div>
+            <div class="info-box"><strong>Rol:</strong> secundario</div>
+        </div>
+    </div>
+
+
+    <div class="profile-section">
+        <h2>Origen</h2>
+        <p>Proveniente de un reino con dictadura rígida y control absoluto.</p>
+        <p>Desde pequeño cuestionó lo que otros aceptaban.</p>
+        <p>Su curiosidad lo convirtió en alguien vigilado.</p>
+        <p>Cuando comenzó a investigar demasiado, decidió marcharse.</p>
+        <p>Su familia murió después… y lo que más lo asustó fue que ya no doliera.</p>
+    </div>
+
+  
+    <div class="profile-section">
+        <h2>La Búsqueda</h2>
+        <p>No busca poder.</p>
+        <p>No busca venganza.</p>
+        <p>No busca justicia.</p>
+        <p><span class="highlight">Busca comprender.</span></p>
+        <p>Su mayor miedo no es morir, sino no entender a las personas.</p>
+    </div>
+
+   
+    <div class="profile-section">
+        <h2>El Juicio</h2>
+        <p>Con Marqui encontró esperanza.</p>
+        <p>Pero guardar secretos creó distancia.</p>
+        <p>En el juicio dijo la verdad sin dramatismo.</p>
+        <p>Nadie le creyó.</p>
+        <p>Murió porque el reino necesitaba un culpable.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Eclipse</h2>
+        <p>Tras su muerte, el Culto de la Luna intervino.</p>
+        <p>En su cuerpo nació Eclipse.</p>
+        <p>Frío. Manipulador. Seguro.</p>
+        <p>Pero no puede dañar a Mike, Stell ni Shad.</p>
+        <p>La promesa de Noga permanece.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>El Cambio</h2>
+        <p>En la dimensión del Loco aprendió convivencia sin cálculo.</p>
+        <p>Entendió que comprender no es descifrar, sino aceptar.</p>
+        <p>Regresó más calmado, más humano.</p>
+        <p><span class="highlight">Ya no busca entender para controlar.</span></p>
+        <p>Busca entender para conectar.</p>
+    </div>
+
+    
+    <div class="profile-section">
+        <h2>Duda Central</h2>
+        <p>Su mayor temor no es volver a morir.</p>
+        <p><span class="highlight">Es volver a dejar de sentir.</span></p>
+    </div>
+
+    <a href="Codigo base.html" class="back-btn">Volver al Inicio</a>
+
+</div>
+
+</body>
+</html>
+

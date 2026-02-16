@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Des | El Curioso que Desafió a la Muerte</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family: Arial, sans-serif;
+            background: url("fondo de des.png") center/cover no-repeat fixed;
+            color:#e6e6e6;
+            position:relative;
+        }
+
+        body::before{
+            content:"";
+            position:fixed;
+            inset:0;
+            background:rgba(8,0,15,0.9);
+            z-index:-1;
+        }
+
+        .profile-container{
+            max-width:1000px;
+            margin:120px auto 60px auto;
+            padding:30px;
+        }
+
+        .profile-header{
+            text-align:center;
+            margin-bottom:50px;
+        }
+
+        .profile-header h1{
+            font-size:42px;
+            color:#b066ff;
+            text-shadow:0 0 20px rgba(176,102,255,0.6);
+            margin-bottom:10px;
+        }
+
+        .profile-header p{
+            font-style:italic;
+            color:#bbb;
+        }
+
+        .profile-section{
+            background:linear-gradient(145deg,#150a25,#0f081a);
+            padding:25px;
+            margin-bottom:30px;
+            border-radius:10px;
+            border:1px solid #2d1747;
+            box-shadow:0 0 15px rgba(176,102,255,0.1);
+            transition:0.3s;
+        }
+
+        .profile-section:hover{
+            box-shadow:0 0 25px rgba(176,102,255,0.4);
+            transform:translateY(-3px);
+        }
+
+        .profile-section h2{
+            color:#b066ff;
+            margin-bottom:15px;
+            border-bottom:1px solid #2d1747;
+            padding-bottom:8px;
+        }
+
+        .highlight{
+            color:#d1a6ff;
+            font-weight:bold;
+        }
+
+        .info-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:15px;
+        }
+
+        .info-box{
+            background:#12081f;
+            padding:15px;
+            border-radius:8px;
+            border:1px solid #26123a;
+        }
+
+        .info-box strong{
+            color:#d1a6ff;
+        }
+
+        .back-btn{
+            display:inline-block;
+            margin-top:30px;
+            padding:12px 25px;
+            background:#b066ff;
+            text-decoration:none;
+            color:white;
+            border-radius:6px;
+            transition:0.3s;
+            box-shadow:0 0 15px rgba(176,102,255,0.4);
+        }
+
+        .back-btn:hover{
+            background:#d1a6ff;
+            color:black;
+            box-shadow:0 0 25px rgba(176,102,255,0.8);
+            transform:scale(1.05);
+        }
+
+        @media (max-width:768px){
+            .profile-container{
+                padding:15px;
+                margin-top:80px;
+            }
+
+            .profile-header h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="profile-container">
+
+    <div class="profile-header">
+        <h1>Des</h1>
+        <p><em>El Curioso que Desafió a la Muerte</em></p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Información General</h2>
+        <div class="info-grid">
+            <div class="info-box"><strong>Edad:</strong> 17 años</div>
+            <div class="info-box"><strong>Altura:</strong> 1.73 m</div>
+            <div class="info-box"><strong>Peso:</strong> 62 kg</div>
+            <div class="info-box"><strong>Origen:</strong> Pueblo remoto</div>
+            <div class="info-box"><strong>Afiliaciones:</strong> Luna / Esperanza</div>
+            <div class="info-box"><strong>Estado:</strong> Revivido</div>
+        </div>
+    </div>
+
+    <div class="profile-section">
+        <h2>Origen</h2>
+        <p>Proviene de un pueblo tan lejano que no conocía al Sol ni a la Luna.</p>
+        <p>Fue abandonado al nacer y criado por un hombre desconocido que murió por enfermedad.</p>
+        <p>Aprendió a sobrevivir solo.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Encuentro con Big</h2>
+        <p>A los 17 años conoció al héroe <span class="highlight">Big</span>.</p>
+        <p>Se volvieron inseparables.</p>
+        <p>Big lo invitó a viajar al Reino de Frix.</p>
+        <p>Des aceptó sin dudar.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>El Reino y la Ejecución</h2>
+        <p>Fue acogido como estudiante del héroe hechicero Muerde.</p>
+        <p>Presenció la ejecución de Noga.</p>
+        <p><span class="highlight">Apoyó su ejecución.</span></p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Las Apuestas</h2>
+        <p>Apostó un ojo. Marquitos lo recuperó.</p>
+        <p>Luego apostó ambos ojos y los perdió.</p>
+        <p>Paradox le devolvió uno.</p>
+        <p>Implantó un ojo de cadáver con magia Ender.</p>
+        <p>Su ojo se volvió morado… y luego negro.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Muerte y Resurrección</h2>
+        <p>Murió tras caer de la sede.</p>
+        <p>Fue revivido gracias al poder del Padre, Marqui y principalmente Big.</p>
+        <p>Desde entonces se obsesionó con la muerte.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Estado Actual</h2>
+        <p>Investiga magia de resurrección.</p>
+        <p>Duerme poco.</p>
+        <p>Desarrolla pensamientos autodestructivos para volver a sentir la muerte.</p>
+        <p>Solo le importan sus amigos cercanos.</p>
+    </div>
+
+    <a href="Codigo base.html" class="back-btn">Volver al Inicio</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sol Heo | Espíritu Poeta</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Georgia', serif;
+    background:url("fondo de sol.png") center/cover no-repeat fixed;
+    color:#f5f5f5;
+    position:relative;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:rgba(20,5,5,0.85);
+    z-index:-1;
+}
+
+.profile-container{
+    max-width:1000px;
+    margin:120px auto 60px auto;
+    padding:30px;
+}
+
+.profile-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.profile-header h1{
+    font-size:42px;
+    color:#ff4d4d;
+    text-shadow:0 0 20px rgba(255,0,0,0.4);
+    margin-bottom:10px;
+}
+
+.profile-header p{
+    font-style:italic;
+    color:#ccc;
+}
+
+.profile-section{
+    background:linear-gradient(145deg,#2a0f0f,#1a0808);
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:10px;
+    border:1px solid #401414;
+    box-shadow:0 0 15px rgba(255,0,0,0.1);
+    transition:0.3s;
+}
+
+.profile-section:hover{
+    box-shadow:0 0 25px rgba(255,80,80,0.4);
+    transform:translateY(-3px);
+}
+
+.profile-section h2{
+    color:#ff6666;
+    margin-bottom:15px;
+    border-bottom:1px solid #401414;
+    padding-bottom:8px;
+}
+
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.info-box{
+    background:#140707;
+    padding:15px;
+    border-radius:8px;
+    border:1px solid #331010;
+}
+
+.info-box strong{
+    color:#ff8080;
+}
+
+.highlight{
+    color:#66ff99;
+    font-weight:bold;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 25px;
+    background:#ff4d4d;
+    text-decoration:none;
+    color:white;
+    border-radius:6px;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(255,0,0,0.4);
+}
+
+.back-btn:hover{
+    background:#66ff99;
+    color:black;
+    box-shadow:0 0 25px rgba(0,255,150,0.6);
+    transform:scale(1.05);
+}
+
+@media (max-width:768px){
+    .profile-container{
+        padding:15px;
+        margin-top:80px;
+    }
+
+    .profile-header h1{
+        font-size:28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="profile-container">
+
+<div class="profile-header">
+    <h1>Sol Heo</h1>
+    <p><em>Espíritu · Poeta</em></p>
+</div>
+
+<div class="profile-section">
+<h2>Información General</h2>
+<div class="info-grid">
+    <div class="info-box"><strong>Edad:</strong> 25 años</div>
+    <div class="info-box"><strong>Cumpleaños:</strong> 18 de noviembre</div>
+    <div class="info-box"><strong>Altura:</strong> 1,53 m</div>
+    <div class="info-box"><strong>Género:</strong> Femenino</div>
+    <div class="info-box"><strong>Orientación:</strong> Bisexual</div>
+    <div class="info-box"><strong>Estado Civil:</strong> Soltera</div>
+    <div class="info-box"><strong>MBTI:</strong> INFP</div>
+    <div class="info-box"><strong>Signo:</strong> Escorpio</div>
+    <div class="info-box"><strong>Ocupación:</strong> Florista y Sanadora Herbal</div>
+    <div class="info-box"><strong>Nacionalidad:</strong> Coreana</div>
+</div>
+</div>
+
+<div class="profile-section">
+<h2>Apariencia</h2>
+<p><span class="highlight">Ojos verdes</span> llenos de sensibilidad.</p>
+<p>Cabello rojo intenso como el fuego del invierno.</p>
+<p>Cicatriz visible en la palma de su mano izquierda.</p>
+</div>
+
+<div class="profile-section">
+<h2>Origen en Joseon</h2>
+<p>Nació como primogénita del Rey Heo.</p>
+<p>Aprendió medicina herbal desde pequeña y ayudaba al pueblo en secreto.</p>
+<p>Su sueño era proteger y sanar, incluso sin portar la corona.</p>
+</div>
+
+<div class="profile-section">
+<h2>El Amor y la Traición</h2>
+<p>Se comprometió con el hijo del consejero real.</p>
+<p>La guerra separó sus destinos.</p>
+<p>Él regresó prometiendo quedarse… pero terminó abandonándola.</p>
+</div>
+
+<div class="profile-section">
+<h2>Nuevo Mundo</h2>
+<p>Fue enviada lejos por seguridad, pero una tormenta hundió el barco.</p>
+<p>Despertó en tierras desconocidas: Utopycraft.</p>
+<p>Allí construyó un hogar inspirado en el <span class="highlight">Loto Blanco</span>.</p>
+</div>
+
+<div class="profile-section">
+<h2>Presente</h2>
+<p>Protege a quienes necesitan ayuda.</p>
+<p>No abandona a nadie.</p>
+<p>Aunque sonríe, algunas noches aún mira las estrellas preguntándose por su familia.</p>
+</div>
+
+<a href="Codigo base.html" class="back-btn">Volver al Inicio</a>
+
+</div>
+
+</body>
+</html>
